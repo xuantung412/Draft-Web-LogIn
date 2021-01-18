@@ -1,0 +1,22 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Site.NestedTKGFlatform.master.cs" Inherits="Draft_Web_LogIn.Site_NestedTKGFlatform" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+                    <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a runat="server" href="~/PreviewFrontEnd.aspx">Front End</a></li>
+                        <li><a runat="server" href="~/PreviewBackEnd.aspx">Back End</a></li>
+                        <li>
+                            <asp:DropDownList ID="MyProfileDropdownList" OnSelectedIndexChanged="MyProfileDropdownList_SelectedIndexChanged" runat="server" AutoPostBack="true">
+    <asp:ListItem Enabled="true" Text="My Profile" Value="-1"></asp:ListItem>
+    <asp:ListItem Text="My Account" Value="/MyAccount.aspx"></asp:ListItem>
+    <asp:ListItem Text="My Subscription Plan" Value="/MySubscriptionPlan.aspx"></asp:ListItem>
+    
+</asp:DropDownList>
+                        </li>
+                        <li>
+                            <asp:Button ID="SignOutButton" runat="server" Text="Sign Out" /></li>
+                    </ul>
+                </div>
+
+
+
+</asp:Content>

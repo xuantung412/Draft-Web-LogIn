@@ -1,0 +1,95 @@
+﻿body {
+}
+
+
+
+<style type="text/css" >
+.footer {
+    /*position: absolute;*/
+    position: fixed;
+    bottom: 0;
+    padding-top: 5px;
+    width: 100%;
+    height: 40px;
+    background-color: #2a3c58;
+}
+
+
+/*blue color of tweet world travel group*/
+.twt-blue {
+    color: #3183ab;
+}
+
+.btn-login {
+    border-radius: 5px;
+    height: 40px;
+    color: #fff;
+}
+
+.login-box {
+    /*width: 450px;*/
+}
+
+.mt-twt {
+    margin-top: 20px;
+}
+
+    .mt-twt a {
+        color: #000;
+    }
+
+.login-box-msg {
+    font-weight: bold;
+    font-size: 22px;
+    text-align: left;
+}
+
+.login-box, .register-box {
+    width: 360px;
+    margin: 7% auto 0 !important;
+}
+
+.login-color-hi a {
+    text-decoration: underline;
+    text-decoration-style: solid;
+}
+
+/*tweet world travel button style*/
+.twt-button {
+    margin: 0;
+    border: none;
+    overflow: visible;
+    font: inherit;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0 30px;
+    vertical-align: middle;
+    font-size: .875rem;
+    line-height: 38px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .1s ease-in-out;
+    transition-property: color,background-color,border-color;
+    width: 100%;
+}
+
+.twt-blue-button {
+    min-height: 34px !important;
+    border-radius: 5px;
+    background-color: #3183ab;
+    color: #fff;
+    transition: .3s all;
+}
+
+    .twt-blue-button:hover {
+        border: 1px solid #3183ab;
+        background-color: #fff;
+        color: #3183ab;
+    }
+
+.twt-button:not(:disabled) {
+    cursor: pointer;
+}
+
+</style >
