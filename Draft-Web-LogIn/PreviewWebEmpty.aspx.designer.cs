@@ -10,7 +10,7 @@
 
 namespace Draft_Web_LogIn
 {
-    public partial class DemoWebsitePreview
+    public partial class PreviewWebEmpty
     {
     }
 }

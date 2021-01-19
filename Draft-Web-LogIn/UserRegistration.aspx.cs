@@ -31,19 +31,27 @@ namespace Draft_Web_LogIn
             else
             {
                 SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\TungDemoDB.mdf;Integrated Security=True");
+                SqlDataAdapter sda = new SqlDataAdapter("select * from LogInInformation",con);
+                DataTable dt = new DataTable();
+                sda.Fill(dt);
+                int totalAccount = dt.Rows.Count;
+                con.Close();
+                string userDataValue = "('"+totalAccount.ToString()+"','"+ this.UserNameTextBox.Text.ToString()+"','"+this.EmailTextbox.Text.ToString() + "','" + this.PasswordTextBox.Text.ToString()+"')";
                 con.Open();
 
                 SqlCommand cmd = new SqlCommand();
                 cmd.CommandType = CommandType.Text;
-                string bcd = "Insert INTO LogInInformation(UserID,UserName,Email,Password) values (12,13,43,4)";
+                string bcd = "Insert INTO LogInInformation(UserID,UserName,Email,Password) values "+ userDataValue;
                 cmd = new SqlCommand(bcd, con);
 
                 cmd.ExecuteNonQuery();
-
                 con.Close();
 
-                Response.Write("<script>alert('" + "Done" + "')</script>");
+                string setActiveAccount = "Insert INTO ActiveAccount(UserID) values " + this.UserNameTextBox.Text.ToString();
 
+
+                Response.Redirect("~/UserlogIn.aspx");
+                Response.Write("<script>alert('" + "Done" + "')</script>");
 
             }
 

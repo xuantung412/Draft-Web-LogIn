@@ -11,430 +11,493 @@ namespace Draft_Web_LogIn
 {
 
 
-    public partial class UserInformation
+    public partial class DemoWeb
     {
 
         /// <summary>
-        /// YourDetailLabel control.
+        /// ImageButton1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label YourDetailLabel;
+        protected global::System.Web.UI.WebControls.ImageButton ImageButton1;
 
         /// <summary>
-        /// TitleLabel control.
+        /// Template1Button control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label TitleLabel;
+        protected global::System.Web.UI.WebControls.LinkButton Template1Button;
 
         /// <summary>
-        /// UserTitleDropDownList control.
+        /// ImageButton2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList UserTitleDropDownList;
+        protected global::System.Web.UI.WebControls.ImageButton ImageButton2;
 
         /// <summary>
-        /// FistNameLabel control.
+        /// Template2Button control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label FistNameLabel;
+        protected global::System.Web.UI.WebControls.LinkButton Template2Button;
 
         /// <summary>
-        /// FirstNameTextBox control.
+        /// ImageButton3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox FirstNameTextBox;
+        protected global::System.Web.UI.WebControls.ImageButton ImageButton3;
 
         /// <summary>
-        /// SurNameLabel control.
+        /// Template3Button control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label SurNameLabel;
+        protected global::System.Web.UI.WebControls.LinkButton Template3Button;
 
         /// <summary>
-        /// SurNameTextBox control.
+        /// ImageButton4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox SurNameTextBox;
+        protected global::System.Web.UI.WebControls.ImageButton ImageButton4;
 
         /// <summary>
-        /// YearsInTravelLabel control.
+        /// Template4Button control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label YearsInTravelLabel;
+        protected global::System.Web.UI.WebControls.LinkButton Template4Button;
 
         /// <summary>
-        /// YearInTravelDropDownList control.
+        /// ImageButton5 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList YearInTravelDropDownList;
+        protected global::System.Web.UI.WebControls.ImageButton ImageButton5;
 
         /// <summary>
-        /// EmailLabel control.
+        /// Template5Button control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label EmailLabel;
+        protected global::System.Web.UI.WebControls.LinkButton Template5Button;
 
         /// <summary>
-        /// EmailTextBox control.
+        /// ImageButton6 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox EmailTextBox;
+        protected global::System.Web.UI.WebControls.ImageButton ImageButton6;
 
         /// <summary>
-        /// CountryLabel control.
+        /// Template6Button control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label CountryLabel;
+        protected global::System.Web.UI.WebControls.LinkButton Template6Button;
 
         /// <summary>
-        /// UserCountryDropDownList control.
+        /// Panel1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList UserCountryDropDownList;
+        protected global::System.Web.UI.WebControls.Panel Panel1;
 
         /// <summary>
-        /// PhoneNumberLabel control.
+        /// SampleTemplateLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PhoneNumberLabel;
+        protected global::System.Web.UI.WebControls.Label SampleTemplateLabel;
 
         /// <summary>
-        /// PhoneNumberTextBox control.
+        /// ImageTemplate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox PhoneNumberTextBox;
+        protected global::System.Web.UI.WebControls.Image ImageTemplate;
 
         /// <summary>
-        /// AgentDetailLabel control.
+        /// BackButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label AgentDetailLabel;
+        protected global::System.Web.UI.WebControls.Button BackButton;
 
         /// <summary>
-        /// CompanyNameLabel control.
+        /// SelectThisTemplateButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label CompanyNameLabel;
+        protected global::System.Web.UI.WebControls.Button SelectThisTemplateButton;
 
         /// <summary>
-        /// CompanyNameTextBox control.
+        /// ModalPopupExtender1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox CompanyNameTextBox;
+        protected global::AjaxControlToolkit.ModalPopupExtender ModalPopupExtender1;
 
         /// <summary>
-        /// TradingNameLabel control.
+        /// ModalPopupExtender6 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label TradingNameLabel;
+        protected global::AjaxControlToolkit.ModalPopupExtender ModalPopupExtender6;
 
         /// <summary>
-        /// TradingNameTextBox control.
+        /// Panel2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TradingNameTextBox;
+        protected global::System.Web.UI.WebControls.Panel Panel2;
 
         /// <summary>
-        /// WebsiteLabel control.
+        /// Label1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label WebsiteLabel;
+        protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
-        /// WebsiteTextBox control.
+        /// Image1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox WebsiteTextBox;
+        protected global::System.Web.UI.WebControls.Image Image1;
 
         /// <summary>
-        /// BusinessTypeLabel control.
+        /// Button1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label BusinessTypeLabel;
+        protected global::System.Web.UI.WebControls.Button Button1;
 
         /// <summary>
-        /// BusinessTypeDropdownlist control.
+        /// Button2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList BusinessTypeDropdownlist;
+        protected global::System.Web.UI.WebControls.Button Button2;
 
         /// <summary>
-        /// NumberOfEmployee control.
+        /// ModalPopupExtender2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label NumberOfEmployee;
+        protected global::AjaxControlToolkit.ModalPopupExtender ModalPopupExtender2;
 
         /// <summary>
-        /// NumberOfEmployeesDropdownlist control.
+        /// ModalPopupExtender3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList NumberOfEmployeesDropdownlist;
+        protected global::AjaxControlToolkit.ModalPopupExtender ModalPopupExtender3;
 
         /// <summary>
-        /// LicenseIndustryMembershipNumberLabel control.
+        /// Panel3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LicenseIndustryMembershipNumberLabel;
+        protected global::System.Web.UI.WebControls.Panel Panel3;
 
         /// <summary>
-        /// LicenseIndustryMembershipNumberTextBox control.
+        /// Label2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox LicenseIndustryMembershipNumberTextBox;
+        protected global::System.Web.UI.WebControls.Label Label2;
 
         /// <summary>
-        /// CompanyRegisterNumberLabel control.
+        /// Image2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label CompanyRegisterNumberLabel;
+        protected global::System.Web.UI.WebControls.Image Image2;
 
         /// <summary>
-        /// CompanyRegisterNumberTextBox control.
+        /// Button3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox CompanyRegisterNumberTextBox;
+        protected global::System.Web.UI.WebControls.Button Button3;
 
         /// <summary>
-        /// TravelAssociationLabel control.
+        /// Button4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label TravelAssociationLabel;
+        protected global::System.Web.UI.WebControls.Button Button4;
 
         /// <summary>
-        /// TravelAssociationTextbox control.
+        /// ModalPopupExtender4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TravelAssociationTextbox;
+        protected global::AjaxControlToolkit.ModalPopupExtender ModalPopupExtender4;
 
         /// <summary>
-        /// UserCountryLabel control.
+        /// ModalPopupExtender5 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label UserCountryLabel;
+        protected global::AjaxControlToolkit.ModalPopupExtender ModalPopupExtender5;
 
         /// <summary>
-        /// AgenCountryDropDownList control.
+        /// Panel4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList AgenCountryDropDownList;
+        protected global::System.Web.UI.WebControls.Panel Panel4;
 
         /// <summary>
-        /// StateRegionLabel control.
+        /// Label3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label StateRegionLabel;
+        protected global::System.Web.UI.WebControls.Label Label3;
 
         /// <summary>
-        /// StateRegionTextBox control.
+        /// Image3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox StateRegionTextBox;
+        protected global::System.Web.UI.WebControls.Image Image3;
 
         /// <summary>
-        /// AddressLabel control.
+        /// Button5 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label AddressLabel;
+        protected global::System.Web.UI.WebControls.Button Button5;
 
         /// <summary>
-        /// AddressTextBox control.
+        /// Button6 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox AddressTextBox;
+        protected global::System.Web.UI.WebControls.Button Button6;
 
         /// <summary>
-        /// CityLabel control.
+        /// ModalPopupExtender7 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label CityLabel;
+        protected global::AjaxControlToolkit.ModalPopupExtender ModalPopupExtender7;
 
         /// <summary>
-        /// CityTextBox control.
+        /// ModalPopupExtender8 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox CityTextBox;
+        protected global::AjaxControlToolkit.ModalPopupExtender ModalPopupExtender8;
 
         /// <summary>
-        /// PostcodeLabel control.
+        /// Panel5 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label PostcodeLabel;
+        protected global::System.Web.UI.WebControls.Panel Panel5;
 
         /// <summary>
-        /// PostcodeTextbox control.
+        /// Label4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox PostcodeTextbox;
+        protected global::System.Web.UI.WebControls.Label Label4;
 
         /// <summary>
-        /// SolutionOfInterest control.
+        /// Image4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label SolutionOfInterest;
+        protected global::System.Web.UI.WebControls.Image Image4;
 
         /// <summary>
-        /// SolutionOfInterestDropDownList control.
+        /// Button7 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList SolutionOfInterestDropDownList;
+        protected global::System.Web.UI.WebControls.Button Button7;
 
         /// <summary>
-        /// AgreeCheckBox control.
+        /// Button8 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox AgreeCheckBox;
+        protected global::System.Web.UI.WebControls.Button Button8;
 
         /// <summary>
-        /// UserAgreeTextBox control.
+        /// ModalPopupExtender9 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label UserAgreeTextBox;
+        protected global::AjaxControlToolkit.ModalPopupExtender ModalPopupExtender9;
 
         /// <summary>
-        /// NextButton control.
+        /// ModalPopupExtender10 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button NextButton;
+        protected global::AjaxControlToolkit.ModalPopupExtender ModalPopupExtender10;
+
+        /// <summary>
+        /// Panel6 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel Panel6;
+
+        /// <summary>
+        /// Label5 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label5;
+
+        /// <summary>
+        /// Image5 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Image Image5;
+
+        /// <summary>
+        /// Button9 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Button9;
+
+        /// <summary>
+        /// Button10 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Button10;
+
+        /// <summary>
+        /// ModalPopupExtender11 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::AjaxControlToolkit.ModalPopupExtender ModalPopupExtender11;
+
+        /// <summary>
+        /// ModalPopupExtender12 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::AjaxControlToolkit.ModalPopupExtender ModalPopupExtender12;
     }
 }

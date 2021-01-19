@@ -44,6 +44,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=20.1.0.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <HintPath>..\packages\AjaxControlToolkit.20.1.0\lib\net40\AjaxControlToolkit.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System" />
@@ -117,12 +120,12 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="DefaultImage.png" />
-    <Content Include="DemoWeb.aspx" />
+    <Content Include="PreviewWebEmpty.aspx" />
+    <Content Include="TemplateEcomercePage.aspx" />
     <Content Include="MyAccount.aspx" />
     <Content Include="MySubscriptionPlan.aspx" />
     <Content Include="PreviewBackEnd.aspx" />
     <Content Include="PreviewFrontEnd.aspx" />
-    <Content Include="PreviewWebEmpty.aspx" />
     <Content Include="LoginCSS.css" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
@@ -136,6 +139,12 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="WebTemplateImage\Template1.png" />
+    <Content Include="WebTemplateImage\Template2.png" />
+    <Content Include="WebTemplateImage\Template3.png" />
+    <Content Include="WebTemplateImage\Template4.png" />
+    <Content Include="WebTemplateImage\Template5.png" />
+    <Content Include="WebTemplateImage\Template6.png" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="LogoPhotoUpload.aspx" />
     <Content Include="Scripts\bootstrap.js" />
@@ -201,12 +210,19 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="DemoWeb.aspx.cs">
-      <DependentUpon>DemoWeb.aspx</DependentUpon>
+    <Compile Include="PreviewWebEmpty.aspx.cs">
+      <DependentUpon>PreviewWebEmpty.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="DemoWeb.aspx.designer.cs">
-      <DependentUpon>DemoWeb.aspx</DependentUpon>
+    <Compile Include="PreviewWebEmpty.aspx.designer.cs">
+      <DependentUpon>PreviewWebEmpty.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TemplateEcomercePage.aspx.cs">
+      <DependentUpon>TemplateEcomercePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TemplateEcomercePage.aspx.designer.cs">
+      <DependentUpon>TemplateEcomercePage.aspx</DependentUpon>
     </Compile>
     <Compile Include="MyAccount.aspx.cs">
       <DependentUpon>MyAccount.aspx</DependentUpon>
@@ -235,13 +251,6 @@
     </Compile>
     <Compile Include="PreviewFrontEnd.aspx.designer.cs">
       <DependentUpon>PreviewFrontEnd.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="PreviewWebEmpty.aspx.cs">
-      <DependentUpon>PreviewWebEmpty.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="PreviewWebEmpty.aspx.designer.cs">
-      <DependentUpon>PreviewWebEmpty.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

@@ -14,7 +14,7 @@
                                     <asp:Label ID="TitleLabel" runat="server" Text="Title" Font-Bold="True"></asp:Label>
                 </div>
                 <div>
-                                                            <asp:DropDownList runat="server" ID="ddlUserTypes">
+                                                            <asp:DropDownList runat="server" ID="UserTitleDropDownList">
 
                         <asp:ListItem Text="Select Title" Value="1" Selected="true" />
     <asp:ListItem Text="Mr" Value="2"/>
@@ -47,7 +47,7 @@
                                     <asp:Label ID="YearsInTravelLabel" runat="server" Text="Years In Travel" Font-Bold="True"></asp:Label>
                 </div>
                 <div>
-                                                            <asp:DropDownList runat="server" ID="DropDownList1" Height="19px" Width="154px">
+                                                            <asp:DropDownList runat="server" ID="YearInTravelDropDownList" Height="19px" Width="154px">
 
                         <asp:ListItem Text="Select Year" Value="0" Selected="true" />
     <asp:ListItem Text="1" Value="1"/>
@@ -74,7 +74,7 @@
                     <asp:Label ID="CountryLabel" runat="server" Text="Country" Font-Bold="True"></asp:Label>
                 </div>
                 <div>
-                                                            <asp:DropDownList runat="server" ID="DropDownList2">
+                                                            <asp:DropDownList runat="server" ID="UserCountryDropDownList">
 
                         <asp:ListItem Text="Select area code" Value="0" Selected="true" />
     <asp:ListItem Text="1000" Value="1"/>
@@ -158,7 +158,7 @@
 </td>
         </tr>
         <tr>
-            <td style="width: 278px; height: 52px;">
+            <td style="width: 278px; height: 61px;">
                                             <div>
                     <asp:Label ID="LicenseIndustryMembershipNumberLabel" runat="server" Text="License/Industry Membership Number" Font-Bold="True"></asp:Label>
                 </div>
@@ -166,7 +166,7 @@
 <asp:TextBox ID="LicenseIndustryMembershipNumberTextBox" runat="server" Height="16px" Width="253px" style="margin-bottom: 8"></asp:TextBox>
                 </div>
             </td>
-            <td style="height: 52px">
+            <td style="height: 61px">
                                                             <div>
                     <asp:Label ID="CompanyRegisterNumberLabel" runat="server" Text="Company Register Number" Font-Bold="True"></asp:Label>
                 </div>
@@ -174,7 +174,7 @@
 <asp:TextBox ID="CompanyRegisterNumberTextBox" runat="server" Height="16px" Width="193px"></asp:TextBox>
                 </div>
             </td>
-            <td style="height: 52px">
+            <td style="height: 61px">
                                                             <div>
                     <asp:Label ID="TravelAssociationLabel" runat="server" Text="Travel Association" Font-Bold="True"></asp:Label>
                 </div>
@@ -182,12 +182,12 @@
 <asp:TextBox ID="TravelAssociationTextbox" runat="server" Height="16px" Width="191px"></asp:TextBox>
                 </div>
             </td>
-            <td style="height: 52px">
+            <td style="height: 61px">
                                                     <div>
                     <asp:Label ID="UserCountryLabel" runat="server" Text="Country" Font-Bold="True"></asp:Label>
                 </div>
                 <div>
-                                                            <asp:DropDownList runat="server" ID="DropDownList3">
+                                                            <asp:DropDownList runat="server" ID="AgenCountryDropDownList">
 
                         <asp:ListItem Text="Select Country" Value="0" Selected="true" />
     <asp:ListItem Text="America" Value="1"/>
@@ -256,5 +256,5 @@
         
                 </div>
     <div align="right">
-        <asp:Button ID="NextButton" runat="server" Text="Next" /></div>
+        <asp:Button ID="NextButton" runat="server" Text="Next" OnClick="NextButton_Click" /></div>
 </asp:Content>
