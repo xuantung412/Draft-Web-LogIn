@@ -15,15 +15,6 @@ namespace Draft_Web_LogIn
     {
 
         /// <summary>
-        /// MyProfileDropdownList control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList MyProfileDropdownList;
-
-        /// <summary>
         /// SignOutButton control.
         /// </summary>
         /// <remarks>
@@ -31,5 +22,14 @@ namespace Draft_Web_LogIn
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button SignOutButton;
+
+        /// <summary>
+        /// Subcontent control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder Subcontent;
     }
 }

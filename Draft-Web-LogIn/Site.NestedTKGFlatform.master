@@ -1,22 +1,73 @@
 ﻿<%@ Master Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Site.NestedTKGFlatform.master.cs" Inherits="Draft_Web_LogIn.Site_NestedTKGFlatform" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-                    <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a runat="server" href="~/PreviewFrontEnd.aspx">Front End</a></li>
+            <link href="~/CSS File/NestedTKGFlatform.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        *{
+            margin:0px;
+            padding:0px;
+            left:0;
+            right:0;
+
+        }
+        #tkgheader ul li{
+            background-color:#39f;
+            border:1px solid black;
+            width:190px;
+            height:35px;
+            line-height:35px;
+            text-align:center;
+            float:left;
+            position: relative;
+            text-align:center;
+        }
+        #tkgheader *{
+            list-style-type:none;
+        }
+        #tkgheader ul li a{
+            color:white;
+            text-align:center;
+            display:block;
+        }
+        #tkgheader ul li a:hover{
+            background-color:#39f;
+            border:3px solid black;
+
+        }
+        #tkgheader ul ul {
+            background-color:#39f;
+            position:absolute;
+            display:none;
+        }
+        #tkgheader ul  li:hover >ul{
+            display:block;
+
+        }
+            #tkgheader ul ul li a{
+                text-align:center;
+
+            }
+
+</style>
+
+    <div id="tkgheader" class="row">
+                    <ul>
+                        <li><img src="ImageFolder/TKGFlatformLogo.png" width="200" height="35"/></li>
+                        <li><a runat="server" href="~/PreviewFrontEnd.aspx"> Front End</a></li>
                         <li><a runat="server" href="~/PreviewBackEnd.aspx">Back End</a></li>
-                        <li>
-                            <asp:DropDownList ID="MyProfileDropdownList" OnSelectedIndexChanged="MyProfileDropdownList_SelectedIndexChanged" runat="server" AutoPostBack="true">
-    <asp:ListItem Enabled="true" Text="My Profile" Value="-1"></asp:ListItem>
-    <asp:ListItem Text="My Account" Value="/MyAccount.aspx"></asp:ListItem>
-    <asp:ListItem Text="My Subscription Plan" Value="/MySubscriptionPlan.aspx"></asp:ListItem>
-    
-</asp:DropDownList>
+                        <li><a runat="server" href="">My Profile</a>
+                            <ul>
+                                <li><a runat="server" href="~//MyAccount.aspx">My Account</a></li>
+                                <li><a runat="server" href="~/MySubscriptionPlan.aspx">My Subscription Plan</a></li>
+                            </ul>
                         </li>
-                        <li>
-                            <asp:Button ID="SignOutButton" runat="server" Text="Sign Out" /></li>
-                    </ul>
-                </div>
-
-
-
+                               <li> <asp:Button ID="SignOutButton" runat="server" Text="Sign Out" with="200" Height="35" /></li>
+                                        </ul>
+</div>
+    <div>
+                <asp:ContentPlaceHolder ID="Subcontent" runat="server">
+            </asp:ContentPlaceHolder>
+    </div>
+                    
 </asp:Content>
+

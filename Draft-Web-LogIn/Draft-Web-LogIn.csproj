@@ -119,7 +119,9 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="CSS File\NestedTKGFlatform.css" />
     <Content Include="DefaultImage.png" />
+    <Content Include="ImageFolder\TKGFlatformLogo.png" />
     <Content Include="PreviewWebEmpty.aspx" />
     <Content Include="TemplateEcomercePage.aspx" />
     <Content Include="MyAccount.aspx" />

@@ -11,7 +11,7 @@
                                 <td align="right" style="height: 25px">
                                     </td>
                                 <td class="modal-sm" style="width: 311px; height: 25px;">
-                                    <asp:TextBox ID="UserNameTextBox" runat="server" Font-Size="0.8em" Width="193px">Username or Email</asp:TextBox>
+                                    <asp:TextBox ID="UserNameTextBox" placeholder ="Username or Email" runat="server" Font-Size="0.8em" Width="193px"></asp:TextBox>
                                     <asp:RequiredFieldValidator ID="UserNameRequired" runat="server" ControlToValidate="UserNameTextBox" ErrorMessage="User Name is required." ToolTip="User Name is required." ValidationGroup="LoginSection">*</asp:RequiredFieldValidator>
                                 </td>
                             </tr>
@@ -19,7 +19,7 @@
                                 <td align="right">
                                     &nbsp;</td>
                                 <td class="modal-sm" style="width: 311px">
-                                    <asp:TextBox ID="PasswordTextBox" runat="server" Font-Size="0.8em" TextMode="Password" Width="194px">*********</asp:TextBox>
+                                    <asp:TextBox ID="PasswordTextBox" runat="server" placeholder="Your Password" Font-Size="0.8em" TextMode="Password" Width="194px"></asp:TextBox>
                                     <asp:RequiredFieldValidator ID="PasswordRequired" runat="server" ControlToValidate="PasswordTextBox" ErrorMessage="Password is required." ToolTip="Password is required." ValidationGroup="LoginSection">*</asp:RequiredFieldValidator>
                                 </td>
                             </tr>

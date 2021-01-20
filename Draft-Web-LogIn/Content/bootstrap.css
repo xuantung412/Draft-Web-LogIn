@@ -1115,6 +1115,8 @@ figure {
 }
 img {
   vertical-align: middle;
+    margin-right: 0px;
+    margin-top: 168px;
 }
 .img-responsive,
 .thumbnail > img,
@@ -4361,6 +4363,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-brand > img {
   display: block;
+    width: 321px;
 }
 @media (min-width: 768px) {
   .navbar > .container .navbar-brand,

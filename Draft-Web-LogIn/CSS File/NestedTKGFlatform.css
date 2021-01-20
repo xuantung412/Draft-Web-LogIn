@@ -1,0 +1,20 @@
+﻿.wrapper {
+    border: 5px ridge black;
+    width:500px;
+    margin:auto;
+    background-color:deepskyblue;
+    color:aquamarine
+}
+.topbanner {
+    background-image: url("~/ImageFolder/TKGFlatformLogo.png");
+    background-color: Highlight;
+
+}
+.container {
+    width: 693px;
+    margin: auto;
+    background-color: deepskyblue;
+    color: aquamarine
+}
+body {
+}

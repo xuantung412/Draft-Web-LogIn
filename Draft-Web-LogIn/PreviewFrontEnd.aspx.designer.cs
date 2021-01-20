@@ -15,15 +15,6 @@ namespace Draft_Web_LogIn
     {
 
         /// <summary>
-        /// FrontEndLabel control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label FrontEndLabel;
-
-        /// <summary>
         /// FrontEndReviewImage control.
         /// </summary>
         /// <remarks>

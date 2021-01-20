@@ -8,11 +8,16 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
+
 namespace Draft_Web_LogIn
 {
     public partial class DemoWeb : System.Web.UI.Page
     {
         public int selectedTemplate = 0; 
+
+
+
+
         protected void Page_Load(object sender, EventArgs e)
         {
 

@@ -4,6 +4,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <div>
         <table>
+
        <tr>
            <td style="height: 245px">
 
@@ -232,7 +233,5 @@
             border:1px solid black;
         }
     </style>
-    </div>
-    </div>
-    </div>
+    
 </asp:Content>

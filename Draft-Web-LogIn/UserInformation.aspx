@@ -17,9 +17,9 @@
                                                             <asp:DropDownList runat="server" ID="UserTitleDropDownList">
 
                         <asp:ListItem Text="Select Title" Value="1" Selected="true" />
-    <asp:ListItem Text="Mr" Value="2"/>
-                        <asp:ListItem Text="Mrs" Value="3"/>
-                         <asp:ListItem Text="Ms" Value="3"/>
+    <asp:ListItem Text="Mr" Value="Mr"/>
+                        <asp:ListItem Text="Mrs" Value="Mrs"/>
+                         <asp:ListItem Text="Ms" Value="Ms"/>
         <asp:ListItem Text="Dr" Value="4"/>
 </asp:DropDownList>
                 </div>
@@ -90,7 +90,7 @@
                     <asp:Label ID="PhoneNumberLabel" runat="server" Text="Phone Number" Font-Bold="True"></asp:Label>
                 </div>
                 <div>
-<asp:TextBox ID="PhoneNumberTextBox" runat="server" Width="191px"></asp:TextBox>
+<asp:TextBox ID="UserPhoneNumberTextBox" runat="server" Width="191px"></asp:TextBox>
                 </div>
             </td>
         </tr>
@@ -256,5 +256,6 @@
         
                 </div>
     <div align="right">
+
         <asp:Button ID="NextButton" runat="server" Text="Next" OnClick="NextButton_Click" /></div>
 </asp:Content>
