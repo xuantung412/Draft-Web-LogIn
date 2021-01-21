@@ -3,6 +3,6 @@
     <div>
     <h2>Review Backend</h2>
 
-        <asp:Image ID="BackEndReviewImage" runat="server" Height="270px" Width="1167px" />
+        <asp:Image ID="BackEndReviewImage" runat="server" Height="400px" Width="500px" />
     </div>
 </asp:Content>

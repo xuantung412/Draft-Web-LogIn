@@ -3,6 +3,24 @@
 
 <html lang="en">
 <head runat="server">
+    <style type="text/css">
+        .*{
+            text-align:center;
+            align-content:center;
+            margin-top:50px
+        }
+        .maincontentcss{
+            position:absolute;
+            top:10%;
+            bottom: 50%;
+            right:10%;
+            left:10%;
+            width:1000px;
+            height:950px;
+            border-color: black;
+            border-style: solid;        }
+    </style>
+
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><%: Page.Title %> - My ASP.NET Application</title>
@@ -50,7 +68,6 @@
                 <div class="navbar-collapse collapse">
 
 
-
                     <ul class="nav navbar-nav">
 
                         <li><a runat="server" href="~/">Home</a></li>
@@ -61,8 +78,9 @@
                 </div>
             </div>
         </div>
-        <div class="container body-content">
-            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+
+        <div class="maincontentcss">
+                        <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <hr />
             <footer>

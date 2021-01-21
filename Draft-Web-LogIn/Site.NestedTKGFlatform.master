@@ -13,7 +13,7 @@
         #tkgheader ul li{
             background-color:#39f;
             border:1px solid black;
-            width:190px;
+            width:199px;
             height:35px;
             line-height:35px;
             text-align:center;
@@ -47,24 +47,42 @@
                 text-align:center;
 
             }
+            
 
-</style>
+        #img{
+            margin-top:0px;
+        }
 
-    <div id="tkgheader" class="row">
+        .auto-style1 {
+            margin-right: -15px;
+            margin-left: -15px;
+            position: absolute;
+            left: 14px;
+            right: 0;
+            top: 2px;
+        }
+        .subcontentCSS{
+            margin-top:-50px;
+            text-align:center;
+        }
+    </style>
+
+    <div id="tkgheader" class="auto-style1">
                     <ul>
-                        <li><img src="ImageFolder/TKGFlatformLogo.png" width="200" height="35"/></li>
+                        <li><img id="img" src="ImageFolder/TKGFlatformLogo.png" width="199" height="35"/></li>
                         <li><a runat="server" href="~/PreviewFrontEnd.aspx"> Front End</a></li>
                         <li><a runat="server" href="~/PreviewBackEnd.aspx">Back End</a></li>
                         <li><a runat="server" href="">My Profile</a>
                             <ul>
-                                <li><a runat="server" href="~//MyAccount.aspx">My Account</a></li>
+                                <li><a runat="server" href="~/UserInformation.aspx">My Account</a></li>
                                 <li><a runat="server" href="~/MySubscriptionPlan.aspx">My Subscription Plan</a></li>
                             </ul>
                         </li>
                                <li> <asp:Button ID="SignOutButton" runat="server" Text="Sign Out" with="200" Height="35" /></li>
                                         </ul>
+            
 </div>
-    <div>
+    <div class="subcontentCSS">
                 <asp:ContentPlaceHolder ID="Subcontent" runat="server">
             </asp:ContentPlaceHolder>
     </div>

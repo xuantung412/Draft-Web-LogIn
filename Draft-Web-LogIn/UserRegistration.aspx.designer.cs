@@ -51,22 +51,22 @@ namespace Draft_Web_LogIn
         protected global::System.Web.UI.WebControls.TextBox CompanyWebsiteTextBox;
 
         /// <summary>
-        /// AgencyNumberTextBox control.
+        /// AgencyMembershipNumberTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox AgencyNumberTextBox;
+        protected global::System.Web.UI.WebControls.TextBox AgencyMembershipNumberTextBox;
 
         /// <summary>
-        /// AgencyCompanyRegistrationNumberTextBix control.
+        /// AgencyCompanyRegistrationNumberTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox AgencyCompanyRegistrationNumberTextBix;
+        protected global::System.Web.UI.WebControls.TextBox AgencyCompanyRegistrationNumberTextBox;
 
         /// <summary>
         /// AgencyTravelAssociationTextBox control.
@@ -132,22 +132,22 @@ namespace Draft_Web_LogIn
         protected global::System.Web.UI.WebControls.TextBox AgencyRegionTextBox;
 
         /// <summary>
-        /// AgencyPhone control.
+        /// AgencyPhoneTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox AgencyPhone;
+        protected global::System.Web.UI.WebControls.TextBox AgencyPhoneTextBox;
 
         /// <summary>
-        /// AgencyFax control.
+        /// AgencyFaxTextBox control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox AgencyFax;
+        protected global::System.Web.UI.WebControls.TextBox AgencyFaxTextBox;
 
         /// <summary>
         /// UserNameTextBox control.

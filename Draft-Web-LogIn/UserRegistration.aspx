@@ -3,8 +3,9 @@
     <div align="center">
                 <h1><asp:Label ID="RegistrationLabel" runat="server" Text="Registration New User"></asp:Label></h1>
     </div>
-     <h4 class="">AGENCY DETAILS</h4>
-                <div class="row justify-content-center pt-3" style="background: url(images/site/shadow-2.png?v1) 50% 0 no-repeat;">
+                <div class="registrationArea">
+                         <h2 class="h2">AGENCY DETAILS</h2>
+
                   <div class="media-container-column col-lg-12">
                     <div class="row">
                       <div class="col">
@@ -37,7 +38,7 @@
                             <div class="form-group">
                               <label class="form-control-label style-font-label">Industry License/ Membership Number*
                               </label>
-                                                                <asp:TextBox CssClass="form-control" placeholder="Industry Number" ID="AgencyNumberTextBox" runat="server"></asp:TextBox>
+                                                                <asp:TextBox CssClass="form-control" placeholder="Industry Number" ID="AgencyMembershipNumberTextBox" runat="server"></asp:TextBox>
 
                             </div>
                           </div>
@@ -45,7 +46,7 @@
                             <div class="form-group">
                               <label class="form-control-label style-font-label">Company Registration Number*
                               </label>
-                                <asp:TextBox CssClass="form-control" placeholder="Business Registration Number" ID="AgencyCompanyRegistrationNumberTextBix" runat="server"></asp:TextBox>
+                                <asp:TextBox CssClass="form-control" placeholder="Business Registration Number" ID="AgencyCompanyRegistrationNumberTextBox" runat="server"></asp:TextBox>
                             </div>
                           </div>
                           <div class="col-md-4 col-sm-12">                 
@@ -69,6 +70,8 @@
                               <label class="form-control-label style-font-label">Postcode*
                               </label>
                                 <asp:TextBox CssClass="form-control" placeholder="Postcode" ID="AgencyPostcodeTextBox" runat="server"></asp:TextBox>
+                            <asp:CompareValidator runat="server" Operator="DataTypeCheck" Type="Integer" 
+ ControlToValidate="AgencyPostcodeTextBox" ErrorMessage="Postcode must be an integer." />
                             </div>
                           </div>
                           <div class="col-md-4 col-sm-12">               
@@ -115,7 +118,7 @@
                             <div class="form-group">
                               <label class="form-control-label style-font-label">Phone*
                               </label>
-                                <asp:TextBox CssClass="form-control" placeholder="Phone" ID="AgencyPhone" runat="server"></asp:TextBox>
+                                <asp:TextBox CssClass="form-control" placeholder="Phone" ID="AgencyPhoneTextBox" runat="server"></asp:TextBox>
                               
                               
                             </div>
@@ -124,7 +127,7 @@
                             <div class="form-group">
                               <label class="form-control-label style-font-label">Fax
                               </label>
-                                <asp:TextBox CssClass="form-control" placeholder="Fax" ID="AgencyFax" runat="server"></asp:TextBox>
+                                <asp:TextBox CssClass="form-control" placeholder="Fax" ID="AgencyFaxTextBox" runat="server"></asp:TextBox>
                             </div>
                           </div>
 
@@ -135,7 +138,8 @@
                   </div>
                 </div>
 
-    <h4>Your Login Detail</h4>
+    <div class="registrationArea">
+    <h2 class="h2">Your Login Detail</h2>
                                 <div class="row">
 
                           <div class="col-md-4 col-sm-12">  
@@ -184,24 +188,41 @@
                                 <asp:TextBox CssClass="form-control" placeholder="Your email" TextMode="Email" ID="EmailTextbox" runat="server"></asp:TextBox>
                             </div>        </div>
         </div>
-
-
-
-              <div align="center">             
+              <div class="signUpButton">             
         <asp:Button ID="SignUpButton" CssClass="submitButton" runat="server" Text="Sign Up" OnClick="SignUpButton_Click" style="height: 26px" />
                   </div> 
+        </div>
     <style type="text/css">
-        .submitButton{
-            border-bottom-color:#39f;
-            background-color:#39f;
-            text-align:right;
-            position:absolute;
-            color:white;
-            align-content:center;
+        .submitButton {
+            border-bottom-color: #39f;
+            background-color: #39f;
+            text-align: right;
+            position: absolute;
+            color: white;
+            align-content: center;
         }
-        .submitButton:hover{
-border:2px solid black;
+
+            .submitButton:hover {
+                border: 2px solid black;
+            }
+        .registrationArea{
+            margin-left:20px;
 
         }
-</style>
+        .signUpButton{
+            align-content:center;
+            text-align:center;
+
+        }
+        .auto-style1 {
+            width: 1004px;
+        }
+        .title{
+            align-content:center;
+            margin-left:20px;
+        }
+        .h2{
+            color:red;
+        }
+    </style>
 </asp:Content>

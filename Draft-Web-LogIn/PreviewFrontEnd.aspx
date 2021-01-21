@@ -2,5 +2,5 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="Subcontent" runat="server">
         <h2>Review Front End</h2>
 
-        <asp:Image ID="FrontEndReviewImage" runat="server" Height="662px" Width="1283px" />
+        <asp:Image ID="FrontEndReviewImage" runat="server" Height="400px" Width="500px" />
 </asp:Content>

@@ -34,7 +34,7 @@
 
 
             <div align="center">
-<asp:Button ID="NoButton" runat="server" Text="No" Width="68px" />
+<asp:Button ID="NoButton" runat="server" Text="No" Width="68px" OnClick="NoButton_Click" />
                     <asp:Button ID="YesButton" runat="server" Text="Yes" Width="71px" OnClick="YesButton_Click" />
 
 

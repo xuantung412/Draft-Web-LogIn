@@ -312,13 +312,13 @@ namespace Draft_Web_LogIn
         protected global::System.Web.UI.WebControls.Label UserCountryLabel;
 
         /// <summary>
-        /// AgenCountryDropDownList control.
+        /// AgentCountryDropDownList control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList AgenCountryDropDownList;
+        protected global::System.Web.UI.WebControls.DropDownList AgentCountryDropDownList;
 
         /// <summary>
         /// StateRegionLabel control.
